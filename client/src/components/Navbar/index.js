@@ -2,17 +2,14 @@ import { AppBar, makeStyles, Toolbar } from '@material-ui/core';
 import React from 'react';
 
 const useStyles = makeStyles((theme) => ({
-  appbar: {
-    // position: 'relative',
-    // zIndex: theme.zIndex.drawer + 1,
-  },
+  appbar: {},
 }));
 
 export const Navbar = () => {
   const classes = useStyles();
 
   return (
-    <AppBar elevation={0} position="absolute" className={classes.appbar}>
+    <AppBar elevation={0} position="relative" className={classes.appbar}>
       <Toolbar></Toolbar>
     </AppBar>
   );

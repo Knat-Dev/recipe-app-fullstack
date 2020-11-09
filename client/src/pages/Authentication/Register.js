@@ -11,7 +11,7 @@ export const Register = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        width: 304,
+        width: 450,
       }}
     >
       <FormControl margin="normal">
